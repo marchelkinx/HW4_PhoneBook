@@ -28,7 +28,8 @@ public class HW4_Tests {
         WebElement element5 = wd.findElement(By.cssSelector("a[href='/login']"));
         WebElement element6 = wd.findElement(By.cssSelector("[href^='/l']"));
         WebElement element7 = wd.findElement(By.cssSelector("[href*='og']"));
-        WebElement element8 = wd.findElement(By.cssSelector("[placeholder*='ss']"));
+        WebElement element8 = wd.findElement(By.cssSelector("[href$='in']"));
+        WebElement element9 = wd.findElement(By.cssSelector("[placeholder*='ss']"));
 
     }
 
